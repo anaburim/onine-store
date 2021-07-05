@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Сравнение товаров</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="site-container">
+        <header class="header"></header>
+        <main class="content">
+            <div class="container">
+            
+                <div class="props__top">
+                <nav class="props">
+                <ul>
+                <li><a href="#" class="props__title">Главная</a></li>
+                <li><a href="#" class="props__title">Сравнение товаров</a></li>
+                </ul>          
+                </nav>
+                <h1 class="content__title title">
+                Сравнение товаров
+                </h1>
+                </div>
+
+                
+                 <section class="catalog">
+                    <div class="catalog__items flex">
+                        <div class="catalog__items-menu">                        
+                            <div class="catalog__items-categories">
+                              <h2 class="catalog__items-category">
+                               Для категорий
+                              </h2> 
+                              <div class="catalog__items-question">                                
+                              </div>                                      
+                            
+                            </div>
+                        
+                            <div class="catalog__items-filters">
+                            <button class="catalog__items-filter dropdown__btn btn"> Смартфоны 
+                            <span class="catalog__items-open"></span>                       
+                            </button>
+                            </div>                    
+                   
+                            <div class="catalog__items-radiobtns">
+                            <div class="catalog__items-choice btn">
+                            <input type="radio" id="catalog__items-choice1" name="choice" value="all" checked>
+                            <label for="catalog__items-choice1">Все характеристики</label>
+                            </div>
+                            <div class="catalog__items-choice2 btn">
+                            <input type="radio" id="catalog__items-choice2" name="choice" value="difference">
+                            <label for="catalog__items-choice2">Показать только различия</label>
+                            </div>
+                           </div>
+                       </div>  
+                       
+                       <li class="product__item">
+                        <article class="product">
+                            
+                          <div class="product__image">
+                            <a href="#" class="product__image-img"> <img src="img/photo1.png" alt="Apple iPhone 11 64 Gb (Gold)"></a>
+                          </div>                            
+                          
+                          <div class="product__about">
+                                                       
+                              <div class="product__category">Смартфоны                                                         
+                                
+                              </div>
+                              
+                            <h3 class="product__title">
+                              <a href="#">Apple iPhone 11 64 Gb (Gold)</a>
+                            </h3>
+                            <div class="product__price">
+                                <div class="product__price-new">49&nbsp;999&nbsp;₽
+                                </div>
+                                <div class="product__price-old">60&nbsp;999&nbsp;₽
+                                </div>
+                            </div>
+                           
+                            <div class="product__buttons">
+                              <button class="product__btn-cart btn">В корзину</button>
+                              <button class="product__btn-buy btn">
+                                <div class="product__phone"></div>
+                                Купить в 1 клик</button>
+                              </div>
+                             
+                            
+                          </div>
+                        </article>
+                        </li>
+                        <li class="product__item">
+                        <article class="product">
+                            
+                            <div class="product__image">
+                              <a href="#" class="product__image-img"> <img src="img/photo1.png" alt="Apple iPhone 11 64 Gb (Gold)"></a>
+                            </div>                            
+                            
+                            <div class="product__about">
+                                
+                                <div class="product__category">Смартфоны
+                                    
+                                </div>
+                              <h3 class="product__title">
+                                <a href="#">Xiaomi Redmi Note 8 Pro 
+                                    (blue)</a>
+                              </h3>
+                              <div class="product__price">
+                                  <div class="product__price-new">16&nbsp;700&nbsp;₽
+                                  </div>
+                                  <div class="product__price-old">19&nbsp;999&nbsp;₽
+                                  </div>
+                              </div>
+                             
+                              <div class="product__buttons">
+                                <button class="product__btn-cart btn">В корзину</button>
+                                
+                                <button class="product__btn-buy btn">
+                                    <div class="product__phone"></div>
+                                    Купить в 1 клик</button>
+  
+                              </div>
+                              
+                              
+                            </div>
+                          </article>
+                      </li>
+                    
+                         
+
+                       </div>
+                        
+                                                
+                    
+                    
+                    <div class="catalog__params">
+                        
+                                
+                                    <div class="grid catalog__param">
+                                        <h4 class="grid__item catalog__param-feature">Бонусные рубли</h4>
+                                        <nav class="grid__item catalog__param-content">
+                                            <ul class="list__param">
+                                                <li class="list__param-item">
+                                                    <button class="list__param-bonus btn">
+                                                        <span class="text">+2&nbsp;000 бонусов</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__param-item">
+                                                    <button class="list__param-bonus btn">
+                                                        <span class="text">+1&nbsp;000 бонусов</span>
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </nav>                                                                                  
+                                    </div>
+
+                                    <div class="grid catalog__param">
+                                        <h4 class="grid__item catalog__param-feature">Акции и специальные предложения</h4>
+                                        <nav class="grid__item catalog__param-content">
+                                            <ul class="list__param">
+                                                <li class="list__param-item">
+                                                    Рассрочка
+                                                </li>
+                                                <li class="list__param-item">
+                                                    Скидка 50% на наушники
+                                                </li>
+                                            </ul>   
+                                        </nav>                                           
+                                                                                  
+                                    </div>
+
+                                    <div class="grid catalog__param">
+                                        <h4 class="grid__item catalog__param-feature">Наличие</h4>
+                                        <nav class="grid__item catalog__param-content">
+                                            <ul class="list__param">
+                                                <li class="list__param-item">
+                                                    В наличии   
+                                                </li>
+                                                <li class="list__param-item">
+                                                    От 3 до 5 дней  
+                                                </li>
+                                            </ul>   
+                                        </nav>                        
+                                                      
+                                    </div>
+
+                                    <h4 class="grid catalog__param-title">Основные</h4>
+
+                                    <div class="grid catalog__param">
+                                                                                
+                                        <div class="grid__item catalog__param-feature">
+                                            
+                                            <h5>Операционная система</h5>                                        
+                                        </div>
+                
+                                        <nav class="grid__item catalog__param-content">
+                                            <ul class="list__param">
+                                                <li class="list__param-item">
+                                                    IOS 13   
+                                                </li>
+                                                <li class="list__param-item">
+                                                    IOS 13                                                     
+                                                </li>
+                                            </ul>  
+                                        </nav> 
+
+                                        <div class="grid__item catalog__param-feature">
+                                            
+                                            <h5>Цвет</h5>                                        
+                                        </div>
+                
+                                        <nav class="grid__item catalog__param-content">
+                                            <ul class="list__param">
+                                                <li class="list__param-item">
+                                                    Золотой 
+                                                </li>
+                                                <li class="list__param-item">
+                                                    Черный                                                    
+                                                </li>
+                                            </ul>  
+                                        </nav> 
+
+                                        <div class="grid__item catalog__param-feature">
+                                            
+                                            <h5>Год выпуска</h5>                                        
+                                        </div>
+                
+                                        <nav class="grid__item catalog__param-content">
+                                            <ul class="list__param">
+                                                <li class="list__param-item">
+                                                    2019   
+                                                </li>
+                                                <li class="list__param-item">
+                                                    2019                                                    
+                                                </li>
+                                            </ul>  
+                                        </nav> 
+                     
+                                    </div>  
+                                    
+                                    <h4 class="grid catalog__param-title">Процессор</h4>
+
+                            
+                                    <div class="grid catalog__param">
+                                        <div class="grid__item catalog__param-feature">
+                                            
+                                            <h5>Производитель</h5>                                        
+                                        </div>
+                
+                                        <nav class="grid__item catalog__param-content">
+                                            <ul class="list__param">
+                                                <li class="list__param-item">
+                                                    Apple  
+                                                </li>
+                                                <li class="list__param-item">
+                                                    Apple                                                     
+                                                </li>
+                                            </ul>  
+                                        </nav> 
+
+                                        <div class="grid__item catalog__param-feature">
+                                            
+                                            <h5>Тип</h5>                                        
+                                        </div>
+                
+                                        <nav class="grid__item catalog__param-content">
+                                            <ul class="list__param">
+                                                <li class="list__param-item">
+                                                    A13 Bionic 
+                                                </li>
+                                                <li class="list__param-item">
+                                                    A13 Bionic                                                    
+                                                </li>
+                                            </ul>  
+                                        </nav> 
+                                    </div>
+
+                                    <h4 class="grid catalog__param-title">Экран</h4>
+
+                            
+                                    <div class="grid catalog__param">
+                                        <div class="grid__item catalog__param-feature">
+                                            
+                                            <h5>Диагональ (дюймов)</h5>                                        
+                                        </div>
+                
+                                        <nav class="grid__item catalog__param-content">
+                                            <ul class="list__param">
+                                                <li class="list__param-item">
+                                                    5,8 
+                                                </li>
+                                                <li class="list__param-item">
+                                                    5,8                                                     
+                                                </li>
+                                            </ul>  
+                                        </nav> 
+
+                                        <div class="grid__item catalog__param-feature">
+                                        <h5>Тип экрана</h5>                                        
+                                        </div>
+                                        <nav class="grid__item catalog__param-content">
+                                            <ul class="list__param">
+                                                <li class="list__param-item">
+                                                    Super Retina XDR
+                                                </li>
+                                                <li class="list__param-item">
+                                                    Super Retina XDR                                                 
+                                                </li>
+                                            </ul>  
+                                        </nav> 
+
+                                        <div class="grid__item catalog__param-feature">
+                                            <h5>Разрешение экрана</h5>                                        
+                                            </div>
+                                            <nav class="grid__item catalog__param-content">
+                                                <ul class="list__param">
+                                                    <li class="list__param-item">
+                                                        2436х1125 точек
+                                                    </li>
+                                                    <li class="list__param-item">
+                                                        2436х1125 точек                                              
+                                                    </li>
+                                                </ul>  
+                                            </nav> 
+                                    </div>
+
+                                    <h4 class="grid catalog__param-title">Камера</h4>
+
+                            
+                                    <div class="grid catalog__param">
+                                        <div class="grid__item catalog__param-feature">
+                                            
+                                            <h5>Количество основных камер</h5>                                        
+                                        </div>
+                
+                                        <nav class="grid__item catalog__param-content">
+                                            <ul class="list__param">
+                                                <li class="list__param-item">
+                                                    3 
+                                                </li>
+                                                <li class="list__param-item">
+                                                    3                                                   
+                                                </li>
+                                            </ul>  
+                                        </nav> 
+
+                                        <div class="grid__item catalog__param-feature">
+                                        <h5>Разрешения основных камер</h5>                                        
+                                        </div>
+                                        <nav class="grid__item catalog__param-content">
+                                            <ul class="list__param">
+                                                <li class="list__param-item">
+                                                    12 МПикс, 12 МПикс, 12 МПикс
+                                                </li>
+                                                <li class="list__param-item">
+                                                    12 МПикс, 12 МПикс, 12 МПикс                                                 
+                                                </li>
+                                            </ul>  
+                                        </nav> 
+
+                                        <div class="grid__item catalog__param-feature">
+                                            <h5>Функции основной камеры</h5>                                        
+                                            </div>
+                                            <nav class="grid__item catalog__param-content">
+                                                <ul class="list__param">
+                                                    <li class="list__param-item">
+                                                        Режим «Портрет», портретное освещение, оптическая стабилизация, вспышка True Tone, Focus Pixels
+                                                    </li>
+                                                    <li class="list__param-item">
+                                                        Режим «Портрет», портретное освещение, оптическая стабилизация, вспышка True Tone, Focus Pixels                                              
+                                                    </li>
+                                                </ul>  
+                                            </nav> 
+
+                                            <div class="grid__item catalog__param-feature">
+                                                <h5>Фронтальная камера</h5>                                        
+                                                </div>
+                                                <nav class="grid__item catalog__param-content">
+                                                    <ul class="list__param">
+                                                        <li class="list__param-item">
+                                                            есть
+                                                        </li>
+                                                        <li class="list__param-item">
+                                                            есть                                              
+                                                        </li>
+                                                    </ul>  
+                                                </nav> 
+
+                                                <div class="grid__item catalog__param-feature">
+                                                    <h5>Разрешение фронтальной камеры</h5>                                        
+                                                    </div>
+                                                    <nav class="grid__item catalog__param-content">
+                                                        <ul class="list__param">
+                                                            <li class="list__param-item">
+                                                                12 Мпикс
+                                                            </li>
+                                                            <li class="list__param-item">
+                                                                12 Мпикс                                              
+                                                            </li>
+                                                        </ul>  
+                                                    </nav> 
+
+                                                    <div class="grid__item catalog__param-feature">
+                                                        <h5>Вспышка</h5>                                        
+                                                        </div>
+                                                        <nav class="grid__item catalog__param-content">
+                                                            <ul class="list__param">
+                                                                <li class="list__param-item">
+                                                                    есть, светодиодная
+                                                                </li>
+                                                                <li class="list__param-item">
+                                                                    есть, светодиодная                                              
+                                                                </li>
+                                                            </ul>  
+                                                        </nav> 
+
+
+                                    </div>
+
+                                    <h4 class="grid catalog__param-title">Память</h4>
+
+                                    <div class="grid catalog__param">
+                                                                                
+                                        <div class="grid__item catalog__param-feature">
+                                            
+                                            <h5>Встроенная память</h5>                                        
+                                        </div>
+                
+                                        <nav class="grid__item catalog__param-content">
+                                            <ul class="list__param">
+                                                <li class="list__param-item">
+                                                    64 ГБ   
+                                                </li>
+                                                <li class="list__param-item">
+                                                    64 ГБ                                                        
+                                                </li>
+                                            </ul>  
+                                        </nav>                             
+                                    </div>
+
+                                    <h4 class="grid catalog__param-title">Питание</h4>
+
+                                    <div class="grid catalog__param">
+                                                                                
+                                        <div class="grid__item catalog__param-feature">
+                                            
+                                            <h5>Тип разъема для зарядки</h5>                                        
+                                        </div>
+                
+                                        <nav class="grid__item catalog__param-content">
+                                            <ul class="list__param">
+                                                <li class="list__param-item">
+                                                    Lightning  
+                                                </li>
+                                                <li class="list__param-item">
+                                                    Lightning                                                       
+                                                </li>
+                                            </ul>  
+                                        </nav>  
+
+                                        <div class="grid__item catalog__param-feature">
+                                            
+                                            <h5>Функция быстрой зарядки </h5>                                        
+                                        </div>
+                
+                                        <nav class="grid__item catalog__param-content">
+                                            <ul class="list__param">
+                                                <li class="list__param-item">
+                                                    есть  
+                                                </li>
+                                                <li class="list__param-item">
+                                                    есть                                                      
+                                                </li>
+                                            </ul>  
+                                        </nav>  
+
+                                        <div class="grid__item catalog__param-feature">
+                                            
+                                            <h5>Функция беспроводной зарядки </h5>                                        
+                                        </div>
+                
+                                        <nav class="grid__item catalog__param-content">
+                                            <ul class="list__param">
+                                                <li class="list__param-item">
+                                                    есть  
+                                                </li>
+                                                <li class="list__param-item">
+                                                    есть                                                      
+                                                </li>
+                                            </ul>  
+                                        </nav>                                      
+
+                                    </div>
+                                    <h4 class="grid catalog__param-title">
+                                    
+                                            Подключение 
+                                    </h4>
+
+                                    <div class="grid catalog__param">
+                                                                                
+                                        <div class="grid__item catalog__param-feature question">
+                                            
+                                            <h5>Разъем Lightning 8 Pin</h5>   
+                                            <div id="catalog__param-msg" data-name="4500 мАч - это примерно 30 часов активного
+                                     использования устройства"><img src="img/question.png" alt="Пояснение"> </div>                                    
+                                        </div>
+                
+                                        <nav class="grid__item catalog__param-content">
+                                            <ul class="list__param">
+                                                <li class="list__param-item">
+                                                    есть  
+                                                </li>
+                                                <li class="list__param-item">
+                                                    есть                                                       
+                                                </li>
+                                            </ul>  
+                                        </nav>  
+
+                                        <div class="grid__item catalog__param-feature">
+                                            
+                                            <h5>Разъем для наушников </h5>                                        
+                                        </div>
+                
+                                        <nav class="grid__item catalog__param-content">
+                                            <ul class="list__param">
+                                                <li class="list__param-item">
+                                                    Lightning 
+                                                </li>
+                                                <li class="list__param-item">
+                                                    Lightning                                                                                                          
+                                                </li>
+                                            </ul>  
+                                        </nav>  
+
+                                    </div>
+
+                    </div>           
+
+
+
+
+
+                    <p class="catalog__description">Смартфон Apple iPhone 11 64GB Black (MWLT2RU/A) и Смартфон Apple iPhone SE 2020 128GB Black 
+                     (MXD02RU/A) - сравнение основных характеристик моделей</p>
+                     <div class="catalog__buttons">
+                         <button class="catalog__buttons-clear btn">Очистить список</button>
+                         <button class="catalog__buttons-back btn">Назад к товарам</button>
+
+                     </div>
+                </section>
+            </div>
+            
+
+
+        </main>
+        <footer class="footer"></footer>
+    </div>
+    
+</body>
+</html>
